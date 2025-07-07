@@ -77,6 +77,14 @@ header {
   flex: 1 1 300px;
   min-width: 260px;
   max-width: 500px;
-  height: 200px;
+  height: 100px;
   gap: 3rem;
+  padding: 2rem 2rem;
+}
+
+.done-box h2,
+.teach-box h2 {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0 auto;
 }
