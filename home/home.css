@@ -1,3 +1,53 @@
+body {
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fcfaf6;
+  color: #2e2e2e;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 2rem;
+  justify-content: center;
+  background-color: #dfd2c4;
+}
+
 .nav {
-  background-color: #274472;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 25px 25px;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 1.5rem 0 0.5rem;
+  padding: 0;
+  text-align: left;
+}
+
+.p-two {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.p-three {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 1rem 0 2rem;
+  padding: 0;
+  max-width: 750px;
+  text-align: left;
+}
+
+.div p {
+  margin: 0;
+  padding: 0;
 }
