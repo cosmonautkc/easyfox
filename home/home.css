@@ -6,6 +6,10 @@ body {
   padding: 0;
 }
 
+header {
+  background-color: #dfd2c4;
+}
+
 .nav {
   background-color: #dfd2c4;
   display: flex;
