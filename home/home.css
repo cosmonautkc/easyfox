@@ -174,6 +174,7 @@ header {
 
 .learn-more {
   display: flex;
+  width: 100%;
   background-color: #dfd2c4;
 }
 
@@ -181,9 +182,18 @@ header {
   border-radius: 7px;
   border: none;
   background-color: #c97b63;
-  color: #fcfaf6;
   padding: 0.5rem 1.5rem;
   font-size: 20px;
   font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 46px auto;
+  transition: all 0.2s;
+}
+
+.learn-more-button a {
+  text-decoration: none;
+  color: #fcfaf6;
+}
+
+.learn-more-button:hover {
+  background-color: #b5664e;
 }
