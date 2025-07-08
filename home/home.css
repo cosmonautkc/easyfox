@@ -116,7 +116,7 @@ header {
   padding-top: 1rem;
   min-width: 0;
   max-width: none;
-  white-space: wrap;
+  white-space: normal;
 }
 
 .icon svg {
@@ -137,13 +137,15 @@ header {
 @media (max-width: 790px) {
   .boxes {
     flex-direction: column;
+    margin: 0 auto;
   }
 
   .steps {
     flex-direction: column;
-    align-items: center;
     flex-wrap: nowrap;
-    margin: 2rem 0;
+    margin: 2rem auto;
+    width: fit-content;
+    align-items: center;
   }
 
   .icon {
@@ -160,14 +162,13 @@ header {
     font-size: 24px;
   }
 
-  .services-preview {
-    padding: 0.5rem;
-  }
-}
-
-@media (max-width: 585px) {
   .services-title {
     margin: 0 auto;
+  }
+
+  .services-preview {
+    align-items: center;
+    padding: 1rem 1.5rem;
   }
 }
 
@@ -183,6 +184,6 @@ header {
   color: #fcfaf6;
   padding: 0.5rem 1.5rem;
   font-size: 20px;
-  font-family: "Inter";
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 46px auto;
 }
