@@ -62,7 +62,8 @@ header {
   color: #2e2e2e;
   font-size: 40px;
   font-weight: 500;
-  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
 }
 
 .service-title {
@@ -140,7 +141,7 @@ header {
 
   .steps {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: nowrap;
     margin: 2rem 0;
   }
@@ -157,6 +158,16 @@ header {
 
   .step-title {
     font-size: 24px;
+  }
+
+  .services-preview {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 585px) {
+  .services-title {
+    margin: 0 auto;
   }
 }
 
