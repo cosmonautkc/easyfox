@@ -187,6 +187,14 @@ header {
   font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 46px auto;
   transition: all 0.2s;
+  width: fit-content;
+}
+
+@media (max-width: 480px) {
+  .learn-more-button {
+    width: 60%;
+    white-space: normal;
+  }
 }
 
 .learn-more-button a {
