@@ -196,12 +196,17 @@ header {
 @media (max-width: 480px) {
   .learn-more-button {
     width: 60%;
-    white-space: normal;
   }
 }
 
 .learn-more-button a {
   text-decoration: none;
+  color: #fcfaf6;
+}
+
+.learn-more-arrow {
+  width: 1rem;
+  height: 1rem;
   color: #fcfaf6;
 }
 
