@@ -221,16 +221,27 @@ footer {
   margin: 2rem;
   border-bottom: 1px solid #2e2e2e;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 div.left {
   flex-grow: 2;
   width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: last baseline;
+  align-items: center;
+}
+
+p.disclaimer {
+  max-width: 500px;
+  text-align: right;
 }
 
 div.middle {
   flex-grow: 1;
-  width: fit-content;
+  min-width: 130px;
 }
 
 div.right {
@@ -241,6 +252,7 @@ div.right {
 .copyright {
   display: flex;
   margin: 0 auto;
+  gap: 1rem;
   justify-content: center;
   align-items: center;
 }
