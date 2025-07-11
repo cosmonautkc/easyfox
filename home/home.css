@@ -247,6 +247,7 @@ div.middle {
 div.right {
   flex-grow: 1;
   width: content;
+  justify-content: center;
 }
 
 .copyright {
@@ -289,6 +290,7 @@ div.logo svg {
 div.socials {
   display: flex;
   align-items: center;
+  justify-content: baseline;
   gap: 5px;
 }
 
@@ -303,3 +305,5 @@ svg.li-icon {
   height: 44px;
   fill: #2e2e2e;
 }
+
+/* Add media query for divs middle and right so when they wrap at x amount of pixels that they center */
