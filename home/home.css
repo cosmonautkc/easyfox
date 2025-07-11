@@ -213,3 +213,81 @@ header {
 .learn-more-button:hover {
   background-color: #b5664e;
 }
+
+footer {
+  display: flex;
+  color: #2e2e2e;
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 2rem;
+  border-bottom: 1px solid #2e2e2e;
+  gap: 1rem;
+}
+
+div.left {
+  flex-grow: 2;
+  width: 600px;
+}
+
+div.middle {
+  flex-grow: 1;
+  width: fit-content;
+}
+
+div.right {
+  flex-grow: 1;
+  width: content;
+}
+
+.copyright {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-title {
+  font-weight: 600;
+}
+
+p.logo-name {
+  font-weight: 700;
+  font-size: 60px;
+  margin: 0;
+}
+
+div.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+div.logo svg {
+  width: 100px;
+  height: 100px;
+  fill: #2e2e2e;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  stroke: #2e2e2e;
+}
+
+div.socials {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+svg.fb-icon {
+  width: 54px;
+  height: 54px;
+  fill: #2e2e2e;
+}
+
+svg.li-icon {
+  width: 44px;
+  height: 44px;
+  fill: #2e2e2e;
+}
