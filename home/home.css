@@ -12,7 +12,7 @@ header {
   width: 100%;
 }
 
-.nav {
+.header-main {
   margin: 0 auto;
   display: flex;
   flex: 1;
